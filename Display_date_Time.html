@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Display Date And Time</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick="displayDate()">Click Me</button>
+<p id="demo"></p>
+<script>
+    function displayDate(){
+        const dateDisplay = document.getElementById("demo");
+        dateDisplay.innerHTML = Date();
+    }
+</script>
+</body>
+</html>
